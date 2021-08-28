@@ -5,4 +5,8 @@
     height: 80%;
     width: 200px;
     background-color: orange;
+
+    @media only screen and (max-width: 400px) {
+        
+    }
 }
