@@ -1,12 +1,37 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1e1e1e;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 60vw;
+    min-width: 400px;
+}
+
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.75rem;
+    border-bottom: 2px solid tomato ;
+    width: fit-content;
+}
+
 #navbar {
     position: fixed;
     left: 0;
     top: 0;
-    height: 80%;
-    width: 200px;
-    background-color: orange;
+    height: 100%;
+    width: 4rem ;
+    background-color: whitesmoke;
 
 
+}
+
+code {
+    display: block;
 }
 
     @media only screen and (max-width: 400px) {
